@@ -1,0 +1,4 @@
+1. (a) Write a program that finds a depth-first spanning tree of a connected graph. 
+(b) Write a program that finds a breadth-first spanning tree of a connected graph. 
+ 
+2. Write a program that finds all the connected components of a graph. 
