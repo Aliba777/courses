@@ -1,0 +1,23 @@
+ 
+1) Write a program that takes as input an arithmetic expression in a fully parenthesized infix form, evaluates the expression and prints it out. (You can assume that there are only four operations: +, , * and / where / is an integer  division that discards the fractional part of the operation result and that the operands are all integers. If division by 0 occurs, your program should not crash but should report it. ) 
+ 
+Example) Input “((3+5) * ((16/3) – 2))” evaluates to “24”.  
+ 
+2. Write a program that takes as input a sequence of reservation requests in the form of  
+Input form 
+(“Adam Smith”, 3)↵
+(“John Galbraith”, 2)↵ 
+(“Joseph Schumpeter”, 2)↵ 
+...
+(“John M. Keynes”, 1)↵ 
+done↵ 
+
+Note
+1 ↵ is a enter input
+2 ... is ellipsis. 
+3 “done” means the end of inputs. 
+ 
+where 1 stands for first-class, 2 for business-class and 3 for economy-class, and prints out the reservation requests in the order of their priorities on the first-come first-served basis. Therefore for the above example input, the output should be 
+ 
+Output form 
+(“John M. Keynes”, 1)(“John Galbraith”, 2)(“Joseph Schumpeter”, 2)(“Adam Smith”, 3) ...   
